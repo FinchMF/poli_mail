@@ -24,21 +24,21 @@ contents[2] =  f'My name is {name} and I am a resident of {borough}. Last April,
 contents[-1] = f'Thank you, {name}, {address}, {email_username}, {phone}'
 
 form_filled = ''.join(contents)
-
+# saving the filled out form to local directory
 filled_template = open(f'NYC/defund_NYPD_{name}.txt', 'w')
 filled_template.write(form_filled)
 filled_template.close()
-
+# pulling the filled our form to be included in the email 
 body = open(f'NYC/defund_NYPD_{name}.txt', 'r')
 body = body.read()
 
-
+# staging the email
 msg = EmailMessage()
 msg['Subject'] = 'Commit to Vote No on the Mayor\'s Budget / Defund the NYPD'
 msg['From'] = email_username
 msg['To'] = council_members
 msg.set_content(body)
-
+# accessing the email server, using your credentials during runtime only
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
     smtp.login(email_username, email_password)
     smtp.send_message(msg)
