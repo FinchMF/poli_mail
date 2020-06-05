@@ -46,7 +46,9 @@ Most importantly, if you do not put an email address, the email will not send.
 
 If you wish to use this program, besure to go visit https://support.google.com/accounts/answer/6010255?hl=en#:~:text=Turn%20off%20%22Less%20secure%20app,Allow%20less%20secure%20apps%20off.
 
-Here you can enable the script to access your gmail account from your opperating system.
+Here you can enable the script to access your gmail account from your operating system.
+
+In order to do this you need to turn on 'less secure apps' (this simply means apps that are not provided by google, ie - this program)
 
 
 This program will run soley on your device and is no way connected to any third parties. The purpose of this program is to secure that no online portal is retaining any information about an individual when an individual is giving temporary access to their OS and or email account. Again, all information is only stored during runtime on your machine and is deleted after.
