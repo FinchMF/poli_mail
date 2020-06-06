@@ -12,7 +12,7 @@ This auto-emailer is a small python script that retains all personal information
 
 ## The Email
 
-provided by defund.org
+provided by defund12.org
 
 "Dear New York City Council Members,
 
