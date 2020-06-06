@@ -33,7 +33,7 @@ Navigate to the appropiate directory and run
 
     python poli_mail.py
 
-In your terminal you will be prompted with a series of questions. If you do not want to answer th questions, you can put N/A; but understand how your answers are input into the email. 
+In your terminal you will be prompted with a series of questions. If you do not want to answer the questions, you can put N/A; but understand how your answers are input into the email. 
 
 If you wish to email the council memebers, it is important to legitmize your plea by making yourself transparent. 
 
