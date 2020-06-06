@@ -1,6 +1,6 @@
 # poli_mail
 
-Modeled after www.defund.org/nyc.
+Modeled after www.defund12.org/nyc.
 
 I've had a few friends who were worried about sending their email through a mass online portal. 
 This auto-emailer is a small python script that retains all personal information to runtime; and deletes immediately after. 
